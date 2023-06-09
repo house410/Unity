@@ -187,7 +187,7 @@ public class GameManager : MonoBehaviour
         {
             ready = false;
             startImage.SetActive(false);
-            // 캐릭터와 장애물의 이동을 시작합니다.s
+            // 캐릭터와 장애물의 이동을 시작합니다.
             character.SetActive(true);
             obstacle.SetActive(true);
             moveobstacle.SetActive(true);

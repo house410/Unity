@@ -11,7 +11,6 @@ public class ScrollMove : MonoBehaviour
     private float targetOffset;
     private Renderer m_Renderer;
 
-    // Start is called before the first frame update
     public void Start()
     {
         m_Renderer = GetComponent<Renderer>();
